@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4925543251882387101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4199579564626908470}
+  - component: {fileID: 508754862163188456}
+  m_Layer: 0
+  m_Name: RacingTrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4199579564626908470
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925543251882387101}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &508754862163188456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4925543251882387101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762d1769722a78d4e8d6047b77f1d1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TrackBuilder
+  outerX: 0.85
+  outerZ: 1.3
+  innerX: 0.48
+  innerZ: 0.93
+  roadHeight: 0.04
+  segments: 80
+  carModelPrefab: {fileID: 919132149155446097, guid: d96868cb3a79c5e4493c1322c5ce49ff, type: 3}
+  carModelScale: 0.11
+  carModelYaw: 0
+  carModelHeight: 0.026
+  carModelMaterial: {fileID: 2100000, guid: 95049a89893ee354b9b185ef754b513a, type: 2}
+  carColliderSize: {x: 0.18, y: 0.18, z: 0.3}
+  roadMaterial: {fileID: 2100000, guid: 43d8b21833b6d4e4082056b1d2a2001d, type: 2}
+  barrierMaterial: {fileID: 2100000, guid: f6169a7d73fdf0746bd5b1091f145b89, type: 2}
+  carBodyMaterial: {fileID: 2100000, guid: 5924f4f690d27ca42b85d9fdf09aed52, type: 2}
+  coinMaterial: {fileID: 2100000, guid: 3022ccff37d8e1343bef890382222057, type: 2}
